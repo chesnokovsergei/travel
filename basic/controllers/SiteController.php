@@ -62,7 +62,7 @@ class SiteController extends Controller
         $search_Flight->Send_and_Save($results);
 
         if ( empty($search_Flight->errors) )
-            print_r('Save Sucecc');
+            print_r('Save Success');
         else
             print_r($search_Flight->errors);
 
