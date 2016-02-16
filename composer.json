@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0"
+    }
+}
